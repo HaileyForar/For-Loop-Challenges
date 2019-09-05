@@ -9,9 +9,9 @@ public class ForLoopChallenges
 //				ascendAndDecsend();
 //				printMultiples();
 //				addingTotals();
-				addLowerboundAndUpperbound();
+//				addLowerboundAndUpperbound();
 				drawRectangle();
-				extraCredit();
+//				extraCredit();
 
 			}
 
@@ -77,9 +77,54 @@ public class ForLoopChallenges
 			}
 
 		private static void drawRectangle()
+		{
+			
+			int rows = 9;
+			int cols = 9;
+	 
+			for (int i = 1; i <= rows; i++)
 			{
 				
+			for (int j = 1; j <= cols; j++) 	
+			{
+				
+			if (i != 1 && i != rows) 	
+			{
+				
+			if (j == 1 || j == cols) 	
+			{
+				
+			System.out.print("*");
+			
+			} 
+			
+			else 
+			{
+			System.out.print(" ");
 			}
+			
+			}
+			
+			else 
+			{
+				
+			System.out.print("*");
+			
+			}
+			
+			}
+			
+			if (i != rows) 
+			{
+				
+			System.out.println();
+			
+			}
+			
+			}
+			
+		}
+		  
 
 		private static void extraCredit()
 			{
